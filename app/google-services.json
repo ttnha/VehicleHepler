@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126145944669",
+    "firebase_url": "https://vehicle-helper-bc1dc-default-rtdb.firebaseio.com",
+    "project_id": "vehicle-helper-bc1dc",
+    "storage_bucket": "vehicle-helper-bc1dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126145944669:android:24ff73c8ee395a18afc1b4",
+        "android_client_info": {
+          "package_name": "com.example.vehiclehelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126145944669-srn7ml7k3fk6s2n3co14rniovb4lo0q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vehiclehelper",
+            "certificate_hash": "90dde12e25fb60a5d0d826828086c75cfac78c6f"
+          }
+        },
+        {
+          "client_id": "126145944669-b1ujdlrd2cunr7ose16sij4rhp8hvqpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi23tiimSyiynpFuJX2_0AzCpFuPBbWDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126145944669-b1ujdlrd2cunr7ose16sij4rhp8hvqpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

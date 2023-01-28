@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".views.chat.ChatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ln_bot"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_mess_main">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow">
+
+            <View
+                android:id="@+id/v_back"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_down_up"
+                android:backgroundTint="@color/white"
+                android:onClick="back"
+                android:rotation="90" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl"
+            android:layout_marginTop="5dp"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:paddingBottom="30dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:stackFromEnd="true"
+            tools:listitem="@layout/rv_item_mess_send" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ln_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginVertical="10dp">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/iv_send"
+            android:background="@drawable/bg_et"
+            android:backgroundTint="@color/white"
+            android:hint="Nhập tin nhắn"
+            android:maxHeight="200dp"
+            android:paddingHorizontal="13dp" />
+
+        <ImageView
+            android:id="@+id/iv_send"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/teal_700"
+            android:padding="7dp"
+            android:src="@drawable/ic_baseline_send_24" />
+    </RelativeLayout>
+
+    <include layout="@layout/include_progress_bar" />
+</RelativeLayout>

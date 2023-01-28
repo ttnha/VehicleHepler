@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_circle.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_dialog_progress.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_et.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_label.xml" value="0.2345" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_line_bot.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_mess_main.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_mess_user1.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_mess_user2.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/bg_pbar.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_baseline_api_24.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_baseline_exit_to_app_24.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.2265" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_baseline_remove_circle_outline_24.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_down_up.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable-v24/ic_location_user.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/bg_splas.xml" value="0.188" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.2055" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1075" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1075" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.1975" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_chat.xml" value="0.4" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_login_pwd.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_map.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_message_list.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_near_by_store.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_otpactivity.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_otpactivity2.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_rating.xml" value="0.2" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_request_service_detail.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_request_service_store_manage.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_service_info.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_service_manage.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_stats.xml" value="0.4" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_store_detail.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_store_info.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_store_main.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_store_manage.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_store_msg_manage.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_usertype.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/activity_vehicle_info.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/include_progress_bar.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/layout_change_password.xml" value="0.2359375" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/layout_dialog_gps.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/layout_forgot_password.xml" value="0.2359375" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_add.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_guardians.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_last_store.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_mess_recieve.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_mess_send.xml" value="0.264" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_mess_service.xml" value="0.4" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_mess_user1.xml" value="0.4" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_mess_user2.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_msg_recent.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_rq_service_store.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_service.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_service_stats.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_store.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/layout/rv_item_store_message.xml" value="0.25" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2015" />
+        <entry key="..\:/Work/Project/Android/main/VehicleHepler/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2015" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

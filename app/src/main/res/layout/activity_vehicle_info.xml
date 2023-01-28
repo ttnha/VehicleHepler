@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.store.VehicleInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:text="Thông tin xe"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Honda, Yamaha, Kawasaki, ..."
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_distributor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Hãng xe"
+                android:maxLines="1"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/clear_name"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="AirBlade, Vision, Wave, ..."
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Tên xe"
+                android:maxLines="1"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/clear_pass"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="50, 125, 150, 160, ..."
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_ounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Phân khối"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/clear_ounce"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="02E1-76712, ..."
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_vehi_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Biển số xe"
+                android:maxLines="1"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/clear_vehi_number"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/non_empty"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/yellow"
+            android:onClick="done"
+            android:text="@string/hoan_thanh"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:onClick="back"
+            android:padding="8dp"
+            android:paddingVertical="5dp"
+            android:text="Thoát"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include layout="@layout/include_progress_bar" />
+</RelativeLayout>

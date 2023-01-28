@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vehiclehelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".helper.application.MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_sos_square"
+        android:label="Xe SOS"
+        android:roundIcon="@mipmap/ic_launcher_sos"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VehicleHelper"
+        tools:ignore="DataExtractionRules">
+        <activity
+            android:name=".views.store.RatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.stats.StatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store.VehicleInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store_service.RequestServiceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store_service.RequestServiceStoreManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.chat.MessageListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store.StoreMsgManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.map.NearByStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store_service.ServiceInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store_service.ServiceManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.store.StoreManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.main.StoreMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.main.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.map.MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".views.store.StoreInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.security.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.security.LoginPwdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.security.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.security.LoginActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".helper.fcm.service.NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".helper.fcm.service.BroadCastReceiver" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDwBo_CBApg5TpuaENFrpmEZ5lN-qFHVYE" />
+    </application>
+
+</manifest>

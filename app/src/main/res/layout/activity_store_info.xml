@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.store.StoreInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:text="Thiết lập một vài thông tin cơ bản cho cửa hàng của bạn!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_store_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Tên cửa hàng"
+                android:inputType="textCapCharacters"
+                android:maxLength="30"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/v_clear_store_name"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_phone_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:hint="Điện thoại liên hệ"
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingVertical="12dp"
+                android:textAlignment="center"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/v_clear_contact"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_sharp_add_circle_24"
+                android:padding="15dp"
+                android:rotation="45"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:padding="7dp"
+                android:text="Gọi điện"
+                android:textColor="@color/red_dark"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_location_on_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:hint="Địa chỉ"
+                android:inputType="none"
+                android:paddingHorizontal="45dp"
+                android:paddingVertical="12dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/v_edit_address"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_baseline_edit_24"
+                android:backgroundTint="@color/teal_700"
+                android:padding="15dp"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/v_move_address"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/navigate"
+                android:padding="25dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#8BFFC107">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_baseline_home_repair_service_24"
+                android:backgroundTint="#FF5722"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/et_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/bg_et"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:foreground="?attr/selectableItemBackground"
+                android:hint="DANH SÁCH DỊCH VỤ"
+                android:inputType="none"
+                android:paddingHorizontal="45dp"
+                android:paddingVertical="12dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#6C6C6C"
+                android:textColorHint="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_down_up"
+                android:backgroundTint="@color/teal_700"
+                android:padding="25dp"
+                android:rotation="270"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/sw_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/tv_store_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="HOẠT ĐỘNG"
+                android:textColor="@color/teal_700"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/non_empty"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/yellow"
+            android:text="@string/hoan_thanh"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:paddingVertical="5dp"
+            android:text="Trở về"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <include layout="@layout/include_progress_bar" />
+</RelativeLayout>
